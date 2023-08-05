@@ -17,6 +17,8 @@
   - tests package consists of one test class has two tests (navigate and search , search and filter )
   - test data such as **url and search keyword** are read from test data file located in "src/test/resources/testDataFiles/testData.json".
   - custome Properties file loacted in "src/main/resources/properties/custom.properties" is used to change browser and controlling Built in features.
-  - after test Execution Allure report , Extent Report are generated and opened automatically. 
+  - after test Execution Allure report , Extent Report are generated and opened automatically.
+  - To view Extent Report navigate to Extent Report folder.
+  - to open allure report extracht the archive generated report and run the patch file .
     
     
