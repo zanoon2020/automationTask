@@ -3,12 +3,13 @@
 
 ## Requirments 
 - Java 17 or higher
-- aany IDE (Eclipse or Intillij)
+- any IDE (Eclipse or IntilliJ)
 
 ## Technologies 
 - the project Built Using Maven , selenium , TestNG , Allure Reports , Extent Reports
 - the Used Framework is open source MIT licensed [SHAFT Engine](https://github.com/ShaftHQ/SHAFT_ENGINE)
 - [SHAFT Engine](https://github.com/ShaftHQ/SHAFT_ENGINE) is One of [Selenium Official Ecosystems](https://www.selenium.dev/ecosystem/)
+- I'm one of [Contributors](https://github.com/ShaftHQ/SHAFT_ENGINE/graphs/contributors) To [SHAFT Engine](https://github.com/ShaftHQ/SHAFT_ENGINE)
 
 ## Project Description
   - Project Built Using Page Object Model
