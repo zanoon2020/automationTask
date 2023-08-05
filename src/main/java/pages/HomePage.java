@@ -15,13 +15,12 @@ public class HomePage {
 	
 	//locators
 	
-	private By homePageHeader = By.xpath("//div[@role='navigation']");
-	private By ebayLogo=By.xpath("//header[@role='banner']//h1");
+	private By ebayLogo = By.xpath("//header[@role='banner']//h1");
 	private By searchBox = By.xpath("(//header[@role='banner']//tr)[3]//input[@type='text']");
 	private By searchButton = By.xpath("(//header[@role='banner']//tr)[3]//input[@type='submit']");
 	
 	
-	
+	//Actions
 	public void navigateToHomePage(String url) {
 		driver.browser().navigateToURL(url);
 	}

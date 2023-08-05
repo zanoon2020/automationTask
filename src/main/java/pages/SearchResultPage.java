@@ -18,10 +18,12 @@ public class SearchResultPage {
 	private By resultBanner = By.xpath("//h1[contains(@class,'count-heading')]");
 	private By manualCheckBox = By.xpath("//input[@aria-label='Manual']");
 	
+	//Actions 
+	
 	public void getResultsCount() {
 		String ResultsCount = driver.element().getText(resultsCount);
 		driver.element().captureScreenshot(resultBanner);
-		SHAFT.Report.report("Results Count are "+ResultsCount);
+		SHAFT.Report.report("Result Count = "+ResultsCount);
 		
 	}
 	
